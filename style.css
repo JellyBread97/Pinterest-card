@@ -45,7 +45,7 @@ body {
   left: 20px;
   background-color: white;
   padding: 3px;
-  opacity: 75%;
+  opacity: 65%;
 }
 
 #button-link a {
@@ -57,22 +57,22 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  border-radius: 100%;
+  border-radius: 50%;
   bottom: 20px;
   left: 155px;
   background-color: white;
   padding: 3px;
-  opacity: 75%;
+  opacity: 65%;
 }
 
 #button-dots {
   position: absolute;
   width: 20px;
   height: 20px;
-  border-radius: 100%;
+  border-radius: 50%;
   bottom: 20px;
   left: 190px;
   background-color: white;
   padding: 3px;
-  opacity: 75%;
+  opacity: 65%;
 }
