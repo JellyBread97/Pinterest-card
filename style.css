@@ -17,9 +17,8 @@ body {
 
 #button-save {
   position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  left: 70%;
+  top: -4vh;
   text-align: center;
   user-select: none;
   font-weight: bold;
@@ -29,8 +28,8 @@ body {
   height: 20px;
   background-color: rgb(194, 17, 17);
   border-radius: 25%;
-  margin-bottom: 280px;
-  margin-left: 170px;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 #button-link {
@@ -41,11 +40,12 @@ body {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  bottom: 20px;
+  bottom: -40px;
   left: 20px;
   background-color: white;
   padding: 3px;
-  opacity: 65%;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 #button-link a {
@@ -58,11 +58,13 @@ body {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  bottom: 20px;
+  bottom: -40px;
   left: 155px;
   background-color: white;
   padding: 3px;
-  opacity: 65%;
+  opacity: 0;
+  text-align: center;
+  transition: 0.3s;
 }
 
 #button-dots {
@@ -70,9 +72,45 @@ body {
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  bottom: 20px;
+  bottom: -40px;
   left: 190px;
   background-color: white;
   padding: 3px;
+  opacity: 0;
+  text-align: center;
+  transition: 0.3s;
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0%;
+  transition: 0.5s;
+}
+#overlay:hover {
+  opacity: 40%;
+}
+
+#pinterest-card:hover #button-save {
+  opacity: 1;
+  top: 2vh;
+}
+
+#pinterest-card:hover #button-link {
   opacity: 65%;
+  bottom: 20px;
+}
+
+#pinterest-card:hover #button-upload {
+  opacity: 65%;
+  bottom: 20px;
+}
+
+#pinterest-card:hover #button-dots {
+  opacity: 65%;
+  bottom: 20px;
 }
