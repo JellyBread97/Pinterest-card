@@ -49,6 +49,7 @@ body {
   left: 20px;
   background-color: white;
   padding: 3px;
+  opacity: 75%;
 }
 
 #button-link a {
@@ -65,6 +66,7 @@ body {
   left: 155px;
   background-color: white;
   padding: 3px;
+  opacity: 75%;
 }
 
 #button-dots {
@@ -76,4 +78,5 @@ body {
   left: 190px;
   background-color: white;
   padding: 3px;
+  opacity: 75%;
 }
