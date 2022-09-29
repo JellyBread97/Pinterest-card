@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#pinterest-card {
+  width: 235px;
+  height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 25vh;
+  border-radius: 5%;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.55);
+}
+
+#button-save {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  user-select: none;
+  font-weight: bold;
+  color: white;
+  padding: 6px;
+  width: 40px;
+  height: 20px;
+  background-color: red;
+  border-radius: 25%;
+  margin-bottom: 280px;
+  margin-left: 170px;
+}
+
+#bottom-buttons {
+  position: absolute;
+
+  margin-bottom: 50px;
+}
+
+#button-link {
+  position: absolute;
+  width: 120px;
+  font-weight: bold;
+  border-radius: 25px 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  bottom: 20px;
+  left: 20px;
+  background-color: white;
+  padding: 3px;
+}
+
+#button-link a {
+  text-decoration: none;
+  color: black;
+}
+
+#button-upload {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  bottom: 20px;
+  left: 155px;
+  background-color: white;
+  padding: 3px;
+}
+
+#button-dots {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  bottom: 20px;
+  left: 190px;
+  background-color: white;
+  padding: 3px;
+}
